@@ -1,0 +1,965 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "post_id": "800001",
+      "author_id": "1",
+      "title": "Comparer 2 périodes N et N-1 dans Excel",
+      "description": "<p><strong>Comparer les résultats de la période N avec ceux de la période N-1</strong> (mois, trimestre, année), c'est l'analyse la plus demandée en entreprise&nbsp;: «&nbsp;Fait-on mieux que l'an dernier&nbsp;?&nbsp;». Et pourtant, presque personne ne sait la réaliser correctement dans Excel.</p>\n<p>Dans cette formation, vous allez apprendre, <strong>étape par étape</strong>, la méthode professionnelle pour construire un tableau de bord dynamique qui affiche côte à côte&nbsp;:</p>\n<ul>\n<li>les ventes de la période en cours (N)&nbsp;;</li>\n<li>les ventes de la période précédente (N-1)&nbsp;;</li>\n<li><strong>le pourcentage de variation entre les deux périodes</strong>.</li>\n</ul>\n<p>Le tout <strong>sans aucune formule complexe dans vos feuilles de calcul</strong>&nbsp;: les calculs sont réalisés par <strong>Power Query et Power Pivot</strong>, les deux outils intégrés à Excel que cette formation vous fait découvrir en pratique.</p>\n<h3>Ce que vous allez apprendre</h3>\n<ul>\n<li>Structurer vos données comme un professionnel (données granulaires)</li>\n<li>Nettoyer et charger vos données avec <strong>Power Query</strong></li>\n<li>Créer et paramétrer une <strong>Table des Temps</strong></li>\n<li>Écrire vos premières <strong>mesures DAX</strong> (SUM, CALCULATE, DATEADD, DIVIDE)</li>\n<li>Construire le tableau croisé dynamique final avec la variation N vs N-1 en %</li>\n</ul>\n<h3>Contenu de la formation</h3>\n<ul>\n<li><strong>18 leçons</strong> organisées en 10 étapes progressives</li>\n<li><strong>4 vidéos de démonstration</strong> qui reprennent chaque manipulation en détail</li>\n<li>Les <strong>fichiers d'exercice à télécharger</strong> (classeur Excel et script complet de la Table des Temps prêt à l'emploi)</li>\n</ul>\n<h3>À qui s'adresse cette formation&nbsp;?</h3>\n<p>À toute personne qui analyse des chiffres dans Excel (ventes, dépenses, indicateurs) et qui veut produire des comparaisons de périodes fiables et automatiques. Aucune connaissance de Power Query ou Power Pivot n'est requise&nbsp;: la méthode part de zéro.</p>\n<p><em>Prérequis&nbsp;: une version d'Excel incluant Power Pivot (Excel 2016 ou plus récent sous Windows).</em></p>",
+      "category_ids": "",
+      "question_ids": "1110,1111,1112,1113,1114,1115,1116,1117,1118,1119,1120,1121,1122,1123,1124,1125,1126,1127",
+      "lesson_ids": "1110,1111,1112,1113,1114,1115,1116,1117,1118,1119,1120,1121,1122,1123,1124,1125,1126,1127",
+      "section_ids": "1,2,3",
+      "sections_count": "3",
+      "questions_count": "18",
+      "lessons_count": "18",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "image": "",
+      "status": "published",
+      "trash_status": "",
+      "ordering": "8",
+      "conditions": "",
+      "custom_post_id": null,
+      "options": "{\"fox_lms_version\": \"7.0.2.3.1\", \"core_version\": \"7.0\", \"php_version\": \"8.1.34\", \"fox_lms_enable_answer_points\": \"off\", \"fox_lms_difficulty_level\": \"intermediate\", \"fox_lms_payment_type\": \"paynow\", \"fox_lms_price\": 19.99, \"fox_lms_old_price\": 0, \"fox_lms_enable_duration\": \"off\", \"fox_lms_duration_hour\": 0, \"fox_lms_duration_minute\": 0, \"fox_lms_enable_course_completion_popup\": \"on\", \"fox_lms_course_completion_popup_title\": \"Félicitations !\", \"fox_lms_course_completion_popup_main_text\": \"Vous avez terminé le cours pour comparer deux périodes N et N-1 dans Excel.\\r\\n\\r\\nVous savez maintenant construire un tableau de bord dynamique avec Power Query et Power Pivot, une compétence que très peu d'utilisateurs d'Excel maîtrisent.\\r\\n\\r\\nMerci d'évaluer ce cours pour faire connaître cette formation à un plus grand nombre d'utilisateurs d'Excel en expliquant ce que la formation vous a apporté.\", \"fox_lms_course_completion_enable_review_link\": \"on\", \"fox_lms_course_enable_certificate_download_button\": \"off\", \"fox_lms_course_enable_redirect_to_all_courses_page_button\": \"on\", \"fox_lms_course_enable_redirect_to_user_dashboard_button\": \"on\", \"fox_lms_enable_attachment\": \"off\", \"fox_lms_enable_takers_count\": \"off\", \"fox_lms_course_attachments\": [], \"fox_lms_takers_count\": 1, \"fox_lms_course_image\": \"\", \"fox_lms_course_video\": \"\", \"fox_lms_enable_course_schedule\": \"off\", \"fox_lms_course_start_date\": \"\", \"fox_lms_course_end_date\": \"\", \"fox_lms_course_before_message\": \"The course will be available soon!\", \"fox_lms_course_after_message\": \"This course has expired!\", \"fox_lms_enable_progressive_learning\": \"on\", \"fox_lms_enable_content_drip\": \"off\", \"fox_lms_content_drip_type\": \"by_date\", \"fox_lms_timezone\": \"UTC+1\", \"fox_lms_enable_email_to_students\": \"on\", \"fox_lms_email_to_students_message\": \"%%student_name%%,\\r\\n\\r\\nVous venez de vous enregistrer pour le cours %%course_title%%.\\r\\n\\r\\nNous vous souhaitons un bon apprentissage.\\r\\n\\r\\nL'équipe de formation.\", \"fox_lms_enable_email_to_instructors\": \"on\", \"fox_lms_email_to_instructors_message\": \"Dear Instructor,\\r\\n\\r\\nWe’re happy to inform you that %%student_name%% has enrolled in the %%course_title%% course on the %%site_title%% website.\", \"fox_lms_enroll_button_text\": \"S'inscrire\", \"fox_lms_enable_social_share\": \"off\", \"fox_lms_social_share_heading\": \"\", \"fox_lms_show_social_buttons\": \"off\", \"fox_lms_social_share_platforms\": [\"linkedin\", \"facebook\", \"x\", \"vkontakte\", \"copylink\"], \"fox_lms_enable_public_mode\": \"off\", \"fox_lms_enable_course_password\": \"off\", \"fox_lms_course_password\": \"\", \"courseCertificate\": \"0\"}",
+      "post": {
+        "ID": "800001",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Comparer 2 périodes N et N-1 dans Excel",
+        "post_content": "",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "comparer-2-periodes-n-et-n-1-dans-excel",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "fcourses",
+        "metadata": {
+          "courseCertificate": [
+            "0"
+          ],
+          "foxlms_course_builder_data": [
+            ""
+          ],
+          "_foxlms_course_steps": [
+            ""
+          ]
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "1",
+      "title": "Préparer et charger vos données",
+      "description": "",
+      "ordering": "1",
+      "options": "{\"collapsed\":\"expanded\",\"go_to_section\":\"-1\"}"
+    },
+    {
+      "id": "2",
+      "title": "La Table des Temps",
+      "description": "",
+      "ordering": "2",
+      "options": "{\"collapsed\":\"expanded\",\"go_to_section\":\"-1\"}"
+    },
+    {
+      "id": "3",
+      "title": "Les mesures et le tableau de bord",
+      "description": "",
+      "ordering": "3",
+      "options": "{\"collapsed\":\"expanded\",\"go_to_section\":\"-1\"}"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "1110",
+      "post_id": "901110",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Étape 1 : Présenter vos données de façon structurées",
+      "question_description": "",
+      "lesson": "Étape 1 : Présenter vos données de façon structurées",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "1",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901110",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 1 : Présenter vos données de façon structurées",
+        "post_content": "Avant de voir comment écrire les formules, <strong>il est indispensable d'avoir des données structurées</strong>.\n\nEn effet, si vos tableaux de données ne sont pas construits tel qu'attendu par Power Pivot (l'outil qui va faire les calculs), jamais vous obtiendrez un tableau de bord dynamique pour comparer deux périodes.\n\nUn tableau de données structuré doit présenter les données « brutes » (raw data en anglais) c'est-à-dire\n<ol>\n \t<li>Sans colonne vide</li>\n \t<li>Sans ligne récapitulative par mois par catégorie de produits ou autres</li>\n \t<li>Chaque colonne présente un type de données</li>\n</ol>\nVotre tableau de données doit présenter toutes les données unitaires, comme le détail de chaque vente, pour chaque journée. <strong>C'EST INDISPENSABLE</strong>.\n<ul>\n \t<li>C'est ce que l'on appelle en informatique <strong>des données granulaires</strong> (dérivées du mot grain).</li>\n \t<li>Tout comme un grain, il est très difficile de le diviser mais en les combinant, nous obtenons des produits plus élaborés (farine, pain, gateau, tout ça à partir d'un grain de blé)</li>\n \t<li><strong>En informatique c'est la même chose</strong>, si vos données présentent le niveau de détail le plus fin, il sera plus simple ensuite de demander à l'ordinateur de faire tous les types de calculs que vous souhaitez à partir de ces données granulaires.</li>\n</ul>\n<strong>Ce type de document n'est pas à utiliser</strong> à cause des lignes de calculs par mois (ligne 8, 12, 16, 17)\n\n&nbsp;\n\n<img class=\"alignnone size-full wp-image-37565\" title=\"Mauvaise présentation des données dans un Tableau\" src=\"https://excel-exercice.com/wp-content/uploads/2024/01/Mauvaise-presentation-des-donnees-dans-un-Tableau.png\" alt=\"Mauvaise présentation des données dans un Tableau\" width=\"626\" height=\"343\" />\n\n&nbsp;\n<ul>\n \t<li>Ce qu'il faut faire, c'est conserver uniquement le détail d'une facture par ligne.</li>\n \t<li><strong>Pas de regroupement par client ou par mois par exemple &#x26d4;</strong></li>\n</ul>\n<img class=\"alignnone size-full wp-image-37677\" title=\"Présentation des données granulaires dans un tablea\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Presentation-des-donnees-granulaires-dans-un-tablea.png\" alt=\"Présentation des données granulaires dans un tablea\" width=\"529\" height=\"237\" />\n\n&nbsp;\n\nC'est comme cela qu'un ordinateur est conçu pour traité les données.",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-1-presenter-vos-donnees-de-facon-structurees",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:1;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1111",
+      "post_id": "901111",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Chaque colonne doit contenir le même type de données",
+      "question_description": "",
+      "lesson": "Chaque colonne doit contenir le même type de données",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "2",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901111",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Chaque colonne doit contenir le même type de données",
+        "post_content": "L'autre erreur souvent commise c'est de vouloir présenter une même donnée mais sur plusieurs colonnes &#x1f631;&#x1f631;\n\nPar exemple ici, nous avons une présentation d'un tableau des résultats du chiffre d'affaires de nos magasins où <strong>chaque mois est sur une colonne différente (A NE JAMAIS FAIRE &#x26d4;)</strong>\n\n<img class=\"alignnone wp-image-37678\" title=\"Ne jamais présenter les valeur représentant la même donnée sur plusieurs colonnes\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Ne-jamais-presenter-les-valeur-representant-la-meme-donnee-sur-plusieurs-colonnes.png\" alt=\"Ne jamais présenter les valeur représentant la même donnée sur plusieurs colonnes\" width=\"868\" height=\"215\" />\n\n&nbsp;\n\n<strong>La seule façon de bien travailler avec un logiciel comme Excel, c’est de ranger ses données par nature dans une seule et même colonne</strong>\n<ul>\n \t<li>Une colonne pour <strong>le nom du magasin</strong></li>\n \t<li>Une pour <strong>le poste de dépense</strong></li>\n \t<li>Puis, <strong>la date</strong></li>\n \t<li>Et une dernière pour <strong>le montant des ventes</strong></li>\n</ul>\nSeulement 4 colonnes, et forcément, un très grand nombre de lignes.\n\n<strong>Et c'est justement le travail d'un ordinateur. </strong>Quand <strong>les données d'un même type sont dans une seule colonne, les calculs sont extrêmement rapides</strong>, peu importe le nombre de lignes. Alors qu'à l'inverse, comparer des colonnes c'est extrêmement complexe à coder.\n\n&nbsp;\n\n<img class=\"alignnone size-full wp-image-38846\" title=\"Correcte présentation des données\" src=\"https://excel-exercice.com/wp-content/uploads/2024/05/Correcte-presentation-des-donnees.png\" alt=\"Correcte présentation des données\" width=\"520\" height=\"412\" />\n\n&nbsp;\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "chaque-colonne-doit-contenir-le-meme-type-de-donnees",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:1;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1112",
+      "post_id": "901112",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Dépivoter les colonnes",
+      "question_description": "",
+      "lesson": "Dépivoter les colonnes",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "3",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901112",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Dépivoter les colonnes",
+        "post_content": "<ul>\n \t<li>Si vous devez réordonner vos données pour mettre chaque type de données sur sa colonne, une solution simple consiste à utiliser <strong>Power Query avec l'option dépivoter les colonnes</strong>.</li>\n \t<li>La vidéo suivante va vous expliquer la technique. Vous verrez, c'est très simple.</li>\n \t<li>Pour reproduire les étapes de transformations en même temps que la vidéo, vous pouvez <a href=\"https://excel-exercice.com/wp-content/uploads/2024/02/Depivoter-les-colonnes.xlsx\">télécharger le fichier ici</a> (la première requête est déjà faite).</li>\n \t<li>Mais si vos données sont déjà bien ordonnées, vous pouvez passer à l'étape suivante</li>\n</ul>\n&nbsp;\n\n<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/KI1GgrRSIdQ?si=Y1_IIw7KoA4roUnH\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>\n\n&nbsp;\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "depivoter-les-colonnes",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:1;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1113",
+      "post_id": "901113",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Étape 2 : Charger vos données dans le modèle de données",
+      "question_description": "",
+      "lesson": "Étape 2 : Charger vos données dans le modèle de données",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "4",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901113",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 2 : Charger vos données dans le modèle de données",
+        "post_content": "Maintenant que vous avez un document propre et structuré, nous allons pouvoir directement rentrer dans le vif du sujet.\n<ol>\n \t<li>La première chose à faire c'est de mettre vos données dans une table (<strong>Insertion &gt; Tableau</strong>)</li>\n</ol>\n<img class=\"alignnone size-full wp-image-19225\" title=\"Insertion-Tableau\" src=\"https://excel-exercice.com/wp-content/uploads/2019/06/Insertion-Tableau.png\" alt=\"Menu insertion Tableau\" width=\"341\" height=\"161\" />\n<ol start=\"2\">\n \t<li>Ensuite, il est recommandé d'attribuer un nom à votre tableau (Création de Tableau &gt; Nom de Tableau). C'est le moyen le plus simple de repérer par la suite vos données dans votre modèle de données.</li>\n</ol>\n<img class=\"alignnone size-full wp-image-24235\" title=\"Changer le nom du Tableau\" src=\"https://excel-exercice.com/wp-content/uploads/2021/07/Changer-le-nom-du-Tableau.png\" alt=\"Changer le nom du Tableau\" width=\"395\" height=\"319\" />\n<ol start=\"3\">\n \t<li>Ensuite, vous allez charger vos données dans Power Query à partir du menu <strong>Données &gt; A partir d'un Tableau ou d'une plage</strong></li>\n</ol>\n<img class=\"alignnone size-full wp-image-37687\" title=\"Menu A partir de Tableau ou Plage\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Menu-A-partir-de-Tableau-ou-Plage.png\" alt=\"Menu A partir de Tableau ou Plage\" width=\"568\" height=\"222\" />\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-2-charger-vos-donnees-dans-le-modele-de-donnees",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1114",
+      "post_id": "901114",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Contrôler les types de données",
+      "question_description": "",
+      "lesson": "Contrôler les types de données",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "5",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901114",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Contrôler les types de données",
+        "post_content": "Normalement, comme les données de base sont propres, il n'y a pas de transformation a réaliser avec Power Query. Vous pouvez <a href=\"https://www.youtube.com/watch?v=xcJssdy0M3A\">retrouver dans cette vidéo</a> des transformations élémentaires avec Power Query si vous voulez en savoir plus.\n\nDans notre exemple, nous devons simplement indiquer que <strong>la colonne des dates contient le type Date</strong> et pas Date et Heure\n\n<img class=\"alignnone size-full wp-image-37688\" title=\"Poqer Query format Date et Heure\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Poqer-Query-format-Date-et-Heure.png\" alt=\"Poqer Query format Date et Heure\" width=\"493\" height=\"280\" />\n\n&nbsp;\n\nPour cela\n<ol>\n \t<li><strong>Cliquez sur l'icône dans l'entête</strong></li>\n \t<li>Sélectionnez l'option <strong>Date</strong></li>\n \t<li>Dans la boite de dialogue suivante, indiquez que vous voulez remplacer le type actuel par le <strong>type Date</strong> (seulement la date, sans l'heure)</li>\n</ol>\n<img class=\"alignnone size-full wp-image-37690\" title=\"Power Query changer le type de données\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Power-Query-changer-le-type-de-donnees.png\" alt=\"Power Query changer le type de données\" width=\"438\" height=\"287\" />\n\n&nbsp;\n\nJuste de cette façon, votre colonne présente des dates (<strong>TRES IMPORTANT pour la suite</strong>)\n\n<img class=\"alignnone size-full wp-image-37689\" title=\"Power Query format Date\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Power-Query-format-Date.png\" alt=\"Power Query format Date\" width=\"295\" height=\"274\" />",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "controler-les-types-de-donnees",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1115",
+      "post_id": "901115",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Importer les données dans le Modèle de données",
+      "question_description": "",
+      "lesson": "Importer les données dans le Modèle de données",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "6",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901115",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Importer les données dans le Modèle de données",
+        "post_content": "Ici, ce n'est pas une action très difficile à réaliser mais si vous oubliez une simple case à cocher, <strong>RIEN NE POURRA FONCTIONNER par la suite</strong>\n<ol>\n \t<li>Dans Power Query, allez sur l'icône <strong>Fermer et Charger</strong></li>\n \t<li><strong>Cliquez sur la flèche</strong> pour afficher les sous-menus</li>\n \t<li>Sélectionnez <strong>Fermer et Charger dans</strong></li>\n</ol>\n<img class=\"alignnone size-full wp-image-19592\" title=\"Power-Query-Fermer-et-Charger-dans-...\" src=\"https://excel-exercice.com/wp-content/uploads/2019/08/Power-Query-Fermer-et-Charger-dans-....png\" alt=\"Charger le résultat de la requête en mémoire\" width=\"314\" height=\"215\" />\n\n&nbsp;\n<ol start=\"4\">\n \t<li>Dans la boîte de dialogue qui s'affiche, Cochez la case <strong>Ne créer que la connexion</strong></li>\n \t<li>Puis, ET C'EST LE PLUS IMPORTANT, <strong>Ajouter ces données au modèle de données</strong></li>\n</ol>\n<img class=\"alignnone wp-image-37691\" title=\"Power Query Charger dans le modèle de données\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Power-Query-Charger-dans-le-modele-de-donnees.png\" alt=\"Power Query Charger dans le modèle de données\" width=\"340\" height=\"236\" />\n\n&nbsp;\n\n<strong>Juste cette dernière case à cocher</strong> va complètement changer l'organisation des données dans notre classeur Excel. <strong>C'est le seul moyen pour Power Pivot de \"voir\" vos données.</strong>",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "importer-les-donnees-dans-le-modele-de-donnees",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1116",
+      "post_id": "901116",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Étape 3 : Ajouter le menu Power Pivot à votre ruban",
+      "question_description": "",
+      "lesson": "Étape 3 : Ajouter le menu Power Pivot à votre ruban",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "7",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901116",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 3 : Ajouter le menu Power Pivot à votre ruban",
+        "post_content": "Voilà une notion qui peut être nouvelle pour beaucoup ; <strong>qu'est-ce que l'on entend par Modèle de données</strong> dans Excel.\n\nEn fait, quand les données sont chargées dans le modèle de données, <strong>elles ne sont accessibles que depuis POWER PIVOT.</strong>\n<ol>\n \t<li>Pour voir les données, il faut charger le module complémentaire depuis <strong>Fichier &gt; Options</strong></li>\n \t<li>Complément</li>\n \t<li>Complément COM</li>\n \t<li>Atteindre</li>\n</ol>\n&nbsp;\n\n<img class=\"alignnone wp-image-37692\" title=\"Options Compléments COM\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Options-Complements-COM.png\" alt=\"Options Compléments COM\" width=\"609\" height=\"345\" />\n\n&nbsp;\n\nCocher la case Microsoft Power Pivot\n\n<img class=\"alignnone size-full wp-image-37693\" title=\"Sélectionner le complément COM Power Pivot\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Selectionner-le-complement-COM-Power-Pivot.png\" alt=\"Sélectionner le complément COM Power Pivot\" width=\"607\" height=\"259\" />\n\n&nbsp;\n\nEnsuite, depuis le Ruban, vous voyez apparaitre le menu Power Pivot dans lequel vous afficher le modèle de données\n\n<img class=\"alignnone size-full wp-image-37694\" title=\"Menu Power Pivot Gérer le data Model\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Menu-Power-Pivot-Gerer-le-data-Model.png\" alt=\"Menu Power Pivot Gérer le data Model\" width=\"855\" height=\"178\" />\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-3-ajouter-le-menu-power-pivot-a-votre-ruban",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1117",
+      "post_id": "901117",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "1",
+      "category_ids": "1",
+      "question": "Ouvrir le modèle de données dans Power Pivot",
+      "question_description": "",
+      "lesson": "Ouvrir le modèle de données dans Power Pivot",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "8",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901117",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Ouvrir le modèle de données dans Power Pivot",
+        "post_content": "Quand vous cliquez sur la première icône <strong>Gérer</strong>, vous voyez une grille qui ressemble avec Excel, mais qui ressemble seulement.\n\n<img class=\"alignnone size-full wp-image-37695\" title=\"Affichage du Modèle de données dans Power Pivot\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Affichage-du-Modele-de-donnees-dans-Power-Pivot.png\" alt=\"Affichage du Modèle de données dans Power Pivot\" width=\"761\" height=\"560\" />\n\n&nbsp;\n\nEn fait, en chargeant vos données, vous transférez vos données dans un moteur dédié aux calculs de masse (son nom c'est Vertipaq).  Les principales différences avec Excel sont\n<ul>\n \t<li>Les données sont en lecture uniquement (mise à jour des données impossible)</li>\n \t<li>Pas de limitation du nombre de lignes</li>\n \t<li>Optimisation des données automatique lors du chargement dans le modèle de données.</li>\n \t<li>Les onglets sont appelés des Tables</li>\n \t<li>Les calculs sont des Mesures</li>\n \t<li>La colonne des dates est toujours représentées avec le format Heure en plus (c'est comme ça)</li>\n \t<li>Power Pivot contient un moteur de calcul spécifique pour le calculs des dates (D'OU LA NECESSITE DE TRANSFERER LES DONNÉES DANS POWER PIVOT)</li>\n</ul>\n<h2>Vidéo récapitulative de la première section</h2>\n<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/j0UXfXgvhrc?si=CoP8Hnma71LIwJpS\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "ouvrir-le-modele-de-donnees-dans-power-pivot",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1118",
+      "post_id": "901118",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "2",
+      "category_ids": "1",
+      "question": "Étape 4 : Création de la Table des Temps",
+      "question_description": "",
+      "lesson": "Étape 4 : Création de la Table des Temps",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "1",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901118",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 4 : Création de la Table des Temps",
+        "post_content": "La particularité de travailler avec Power Pivot c'est qu'<strong>il faut lui indiquer une table qui va être utilisée pour les opérations sur les Dates</strong>. C'est ce que l'on appelle <strong>une table des temps</strong> (ou table de date).\n\nIl existe plusieurs techniques pour le faire mais la méthode à préconiser c'est de créer la table des temps dans Power Query et de la charger dans le modèle de données\n\nPourquoi c'est mieux de créer sa table des temps dans Power Query ? Tout simplement parce que la table n'a besoin d'être chargée qu'une seule fois dans le modèle (une fois par jour c'est suffisant). Si vous faites votre table des temps depuis Power Pivot, donc avec des mesures, votre table des temps sera reconstruite à chaque phase de calcul (pas terrible comme optimisation).\n\nPour faire votre Table des Temps (la démo vidéo est à la fin de la formation)\n<ol>\n \t<li>Allez dans le menu Données</li>\n \t<li>Obtenir des données</li>\n \t<li>A partir d'autres Sources</li>\n \t<li>Requête vide</li>\n</ol>\n<img class=\"alignnone wp-image-37698\" title=\"Menu Power Query Requête Vide\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Menu-Power-Query-Requete-Vide.png\" alt=\"Menu Power Query Requête Vide\" width=\"444\" height=\"525\" />\n\n&nbsp;\n<ol start=\"5\">\n \t<li>Ensuite, vous allez récupérer <a href=\"https://excel-exercice.com/wp-content/uploads/2024/02/Script_TimeTable_Complet_fr.txt\">ce fichier texte</a> contenant la requête</li>\n \t<li>Dans Power Query, vous allez ouvrir l<strong>'Éditeur Avancé </strong>depuis le menu Accueil</li>\n \t<li>Puis, collez l'intégralité du fichier texte à la place de la requête vide</li>\n</ol>\n<img class=\"alignnone size-full wp-image-37696\" title=\"Coller la table des temps dans l'éditeur de requêtes\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Coller-la-table-des-temps-dans-lediteur-de-requetes.png\" alt=\"Coller la table des temps dans l'éditeur de requêtes\" width=\"747\" height=\"388\" />",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-4-creation-de-la-table-des-temps",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1119",
+      "post_id": "901119",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "2",
+      "category_ids": "1",
+      "question": "Comprendre la Table des Temps",
+      "question_description": "",
+      "lesson": "Comprendre la Table des Temps",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "2",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901119",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Comprendre la Table des Temps",
+        "post_content": "Quand votre table de temps est chargée dans Power Query, vous voyez\n<ul>\n \t<li>Une première colonne avec les dates au format Date mais sans un seul jour manquant (jours ouvrés, fériés, weekend, .... rien ne doit manquer)</li>\n \t<li>Ensuite, chaque colonne qui suit représente une partie de la date\n<ul>\n \t<li>Juste l'année</li>\n \t<li>Le mois en chiffre</li>\n \t<li>Le mois en lettre</li>\n \t<li>Jour de la semaine</li>\n \t<li>Jour dans le mois</li>\n \t<li>.....</li>\n</ul>\n</li>\n</ul>\n<img class=\"alignnone wp-image-37699\" title=\"Exemple de table des temps dans Power Query\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Exemple-de-table-des-temps-dans-Power-Query.png\" alt=\"Exemple de table des temps dans Power Query\" width=\"810\" height=\"358\" />\n\n&nbsp;\n\n<strong>IMPORTANT</strong> : Le script fourni est construit sur une date de début et de fin figée. Dans la vidéo qui va reprendre chaque partie de la méthode, vous verrez <strong>comment déduire la date de début et de fin</strong> à partir de la date minimale et maximale du jeu de données.\n\nMais en conservant une date minimale et maximale figée, le projet va tout de même fonctionnée.\n\nPour finir, il faut de nouveau <strong>charger la Table des Temps dans le Modèle de données.</strong>\n\n<img class=\"alignnone size-full wp-image-19592\" title=\"Power-Query-Fermer-et-Charger-dans-...\" src=\"https://excel-exercice.com/wp-content/uploads/2019/08/Power-Query-Fermer-et-Charger-dans-....png\" alt=\"Charger le résultat de la requête en mémoire\" width=\"314\" height=\"215\" />\n\n&nbsp;\n\n<img class=\"alignnone size-full wp-image-37700\" title=\"Menu Power Query pour charger dans le modèle de données\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Menu-Power-Query-pour-charger-dans-le-modele-de-donnees.png\" alt=\"Menu Power Query pour charger dans le modèle de données\" width=\"388\" height=\"270\" />\n\n&nbsp;\n\nEnsuite, depuis Power Pivot, vous pouvez voir votre Table des Temps s'afficher comme nouvelle table (onglet)\n\n<img class=\"alignnone size-full wp-image-37701\" title=\"Table des Temps chargées dans Power Pivot\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Table-des-Temps-chargees-dans-Power-Pivot.png\" alt=\"Table des Temps chargées dans Power Pivot\" width=\"836\" height=\"491\" />\n\n&nbsp;\n\nSi vous êtes arrivé à cette étape et sans erreur, BRAVO &#x1f600;&#x1f44f;.\n\nEncore 2 étapes importantes et le travail est terminé.",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "comprendre-la-table-des-temps",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1120",
+      "post_id": "901120",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "2",
+      "category_ids": "1",
+      "question": "Étape 5 : Indiquer à Power Pivot que cette nouvelle Table est une Table des Temps",
+      "question_description": "",
+      "lesson": "Étape 5 : Indiquer à Power Pivot que cette nouvelle Table est une Table des Temps",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "3",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901120",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 5 : Indiquer à Power Pivot que cette nouvelle Table est une Table des Temps",
+        "post_content": "Pour l'instant, nous n'avons fait que charger une nouvelle table dans Power Pivot. Nous nous savons qu'il s'agit d'une table des Temps mais Power Pivot l'ignore pour le moment. C'est donc tout l'objet de cette étape.\n\nPour le lui faire comprendre il faut\n<ol>\n \t<li>Sélectionnez la table des Temps depuis l'interface Power Pivot</li>\n \t<li>Puis sélectionnez le menu <strong>Conception</strong></li>\n \t<li><strong>Marquer en tant que table de dates</strong></li>\n \t<li>De nouveau <strong>Marquer en tant que table de dates</strong></li>\n</ol>\n<img class=\"alignnone size-full wp-image-37702\" title=\"Marquer en tant que table de dates dans Power Pivot\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Marquer-en-tant-que-table-de-dates-dans-Power-Pivot.png\" alt=\"Marquer en tant que table de dates dans Power Pivot\" width=\"764\" height=\"323\" />\n\n&nbsp;\n\nIl suffit ensuite d'indiquer quelle est la colonne qui contient toutes les dates (au format date). En fait, il n'y a qu'une seule colonne contenant des dates, la <strong>colonne Date</strong>\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-5-indiquer-a-power-pivot-que-cette-nouvelle-table-est-une-table-des-temps",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1121",
+      "post_id": "901121",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "2",
+      "category_ids": "1",
+      "question": "Forcer le tri des noms des mois",
+      "question_description": "",
+      "lesson": "Forcer le tri des noms des mois",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "4",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901121",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Forcer le tri des noms des mois",
+        "post_content": "Un détail qui va avoir son importance, c'est l'ordre d'affichage des mois. Là encore, sans intervention de notre part, Power Pivot est incapable de savoir que Janvier doit être le premier mois d'une année.\n<ol>\n \t<li>Sélectionner la colonne des mois en lettres</li>\n \t<li>Allez dans le menu <strong>Accueil</strong></li>\n \t<li><strong>Trier par colonne</strong></li>\n</ol>\n<img class=\"alignnone wp-image-37703\" title=\"Trier les mois en lettres dans Power Pivot\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Trier-les-mois-en-lettres-dans-Power-Pivot.png\" alt=\"Trier les mois en lettres dans Power Pivot\" width=\"933\" height=\"280\" />\n\n&nbsp;\n\nDans la boite de dialogue, il suffit d'indiquer que la colonne <strong>Nom du mois</strong>, suis l'ordre numérique de la colonne <strong>Mois</strong>\n\n<img class=\"alignnone size-full wp-image-37704\" title=\"Paramètre de tri des mois en lettres\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Parametre-de-tri-des-mois-en-lettres.png\" alt=\"Paramètre de tri des mois en lettres\" width=\"524\" height=\"224\" />\n\n&nbsp;\n\nRefaites la même manipulation pour <strong>la colonne des mois courts et des jours</strong>",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "forcer-le-tri-des-noms-des-mois",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1122",
+      "post_id": "901122",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "2",
+      "category_ids": "1",
+      "question": "Étape 6 : Lier la Table des Temps avec notre jeu de données",
+      "question_description": "",
+      "lesson": "Étape 6 : Lier la Table des Temps avec notre jeu de données",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "5",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901122",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 6 : Lier la Table des Temps avec notre jeu de données",
+        "post_content": "Dernière étape avant de passer aux mesures, il faut lier les 2 tables.\n<ol>\n \t<li>Selectionner le champ de la première table</li>\n \t<li>Glisser le sur le champ de même type (ici date) dans l'autre table</li>\n</ol>\n<img class=\"alignnone size-full wp-image-37705\" title=\"Lier deux tables Power Pivot\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Lier-deux-tables-Power-Pivot.gif\" alt=\"Lier deux tables Power Pivot\" width=\"500\" height=\"404\" />\n\n&nbsp;\n\nL'opération est simple à réaliser mais si l'un des éléments suivants n'est pas respecté, la liaison est impossible\n<ul>\n \t<li>Type de données identiques entre les 2 tables (Date - Date)</li>\n \t<li><strong>L'une des 2 tables doit avoir des valeurs uniques.</strong> C'est le cas de la Table des Temps.</li>\n</ul>\n<strong>Si l'une de ces règles n'est pas respectées, la liaison ne peut pas se faire</strong> &#x26d4;\n<h2>Vidéo récapitulative de la création de la table des temps</h2>\nNous allons ici voir en plus comment caler la Table des Temps sur les dates minimales et maximales de notre modèle\n\n<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/KXgUzucwaEQ?si=FiciuxT_tXdW5KhR\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-6-lier-la-table-des-temps-avec-notre-jeu-de-donnees",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1123",
+      "post_id": "901123",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "3",
+      "category_ids": "1",
+      "question": "Étape 7 : Créer la mesure du Total des ventes de l'année en cours",
+      "question_description": "",
+      "lesson": "Étape 7 : Créer la mesure du Total des ventes de l'année en cours",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "1",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901123",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 7 : Créer la mesure du Total des ventes de l'année en cours",
+        "post_content": "Alors une mesure, ce n'est pas la même chose qu'une formule dans Excel. Ici, il y a un peu un coté \"magique\" dans le sens où la mesure va s'adapter au \"contexte\" (je l'explique à la fin de cette fiche)\n<ul>\n \t<li>Une mesure s'écrit dans la partie en dessous des données dans Power Pivot. Le choix de l'emplacement de la mesure n'est pas déterminant (vous pouvez l'écrire dans n'importe quelle cellule)</li>\n \t<li>Le nom de la mesure est séparée de la fonction par le symbole ( : ) et du signe =</li>\n \t<li>Toutes les fonctions sont en anglais.</li>\n</ul>\nLa mesure pour calculer les ventes de l'année en cours est très simple à écrire.\n\n<strong>Ventes:=SUM([Total])</strong>\n\n<img class=\"alignnone size-full wp-image-37710\" title=\"Mesure SUM pour les ventes de l'année\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-SUM-pour-les-ventes-de-lannee.png\" alt=\"Mesure SUM pour les ventes de l'année\" width=\"667\" height=\"462\" />\n\nAlors le chiffre renvoyé par la mesure, n'est pas exploitable pour le moment (c'est la somme des 78694 lignes ; aucun intérêt)\n\nPar contre quand nous allons utiliser cette mesure dans un Tableau Croisé Dynamique, là vous allez comprendre cette histoire de \"contexte\".",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-7-creer-la-mesure-du-total-des-ventes-de-l-annee-en-cours",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1124",
+      "post_id": "901124",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "3",
+      "category_ids": "1",
+      "question": "Étape 8 : Mettre la mesure dans un TCD",
+      "question_description": "",
+      "lesson": "Étape 8 : Mettre la mesure dans un TCD",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "2",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901124",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 8 : Mettre la mesure dans un TCD",
+        "post_content": "Nous allons maintenant construire un TCD en utilisant la mesure <strong>Ventes</strong>\n<ul>\n \t<li>Nous allons glisser depuis la Table des Temps l'année et le mois en Lettre dans la zone Ligne</li>\n \t<li>Puis déposer la mesure Ventes dans la zone Valeur. Une mesure se distingue des autres champs par le symbole <em>fx</em></li>\n</ul>\n<img class=\"alignnone size-full wp-image-37711\" title=\"Utilisation de la mesure Ventes dans un TCD\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Utilisation-de-la-mesure-Ventes-dans-un-TCD.png\" alt=\"Utilisation de la mesure Ventes dans un TCD\" width=\"568\" height=\"514\" />\n\n&nbsp;\n\nEt c'est là où le principe de \"contexte\" prend tout son sens.\n\nPour chaque association Année + Mois, la mesure va demander au moteur de Power Pivot de lui retourner la somme correspondant à ce critère. Et ainsi de suite pour chaque couple Année + Mois. Cela peut sembler répétitif mais c'est comme cela que Power Pivot fonctionne.\n\nDonc une mesure ne se comprend qu'une fois mises dans un TCD avec les critères de sélection choisi.",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-8-mettre-la-mesure-dans-un-tcd",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1125",
+      "post_id": "901125",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "3",
+      "category_ids": "1",
+      "question": "Étape 9 : Création de la mesure pour les ventes de l'année N-1",
+      "question_description": "",
+      "lesson": "Étape 9 : Création de la mesure pour les ventes de l'année N-1",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "3",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901125",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Étape 9 : Création de la mesure pour les ventes de l'année N-1",
+        "post_content": "Ca y est ! Nous y sommes. La mesure pour récupérer le montant des ventes de l'année N-1 s'obtient avec la mesure suivante :\n\nVentes N-1:=CALCULATE([Ventes];DATEADD(Table_Temps[Date];-1;YEAR))\n<ul>\n \t<li>CALCULATE va \"altérer\" le résultat d'une mesure</li>\n \t<li>Ici, nous allons \"altérer\" le résultat de la mesure Ventes</li>\n \t<li>Altérer par quoi ? Par un décalage d'un an.\n<ul>\n \t<li>Fonction DATEADD</li>\n \t<li>Colonne Date de la Table des Temps (obligatoirement cette colonne)</li>\n \t<li>-1</li>\n \t<li>Période : L'année</li>\n</ul>\n</li>\n</ul>\n<img class=\"alignnone size-full wp-image-37712\" title=\"Mesure pour l'année N 1\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-pour-lannee-N-1.png\" alt=\"Mesure pour l'année N 1\" width=\"787\" height=\"443\" />\n\n&nbsp;\n\nEt ajoutant cette mesure à notre TCD nous avons une nouvelle colonne qui donne le résultat de l'année précédente.\n\nOn voit bien sur cet exemple que le montant de vente de 2020 se reporte en colonne vente de l'année N-1 en 2021\n\n<img class=\"alignnone size-full wp-image-37713\" title=\"Ajout de la mesure de l'année N 1\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Ajout-de-la-mesure-de-lannee-N-1.png\" alt=\"Ajout de la mesure de l'année N 1\" width=\"648\" height=\"540\" />",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-9-creation-de-la-mesure-pour-les-ventes-de-l-annee-n-1",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1126",
+      "post_id": "901126",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "3",
+      "category_ids": "1",
+      "question": "Comprendre la mesure de l'année N-1",
+      "question_description": "",
+      "lesson": "Comprendre la mesure de l'année N-1",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "4",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901126",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Comprendre la mesure de l'année N-1",
+        "post_content": "Alors la formule peut sembler courte et peu complexe mais elle découle de tout le travail qui a été fait précédemment\n\n<img class=\"alignnone size-full wp-image-37712\" title=\"Mesure pour l'année N 1\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-pour-lannee-N-1.png\" alt=\"Mesure pour l'année N 1\" width=\"787\" height=\"443\" />\n\n&nbsp;\n<ul>\n \t<li>La fonction CALCULATE va \"altérer\" le résultat d'une précédente mesure</li>\n \t<li>Le premier argument reprend la mesure des ventes que nous avons écrites précédemment</li>\n \t<li>Ensuite, nous allons utiliser la fonction DATEADD pour créer un décalage d'une année\n<ul>\n \t<li>Le premier paramètre est <strong>obligatoirement la colonne Date de la Table des Temps</strong>  (c'est pour cela que nous avons besoin d'une table des temps)</li>\n \t<li>Ensuite on retranche 1</li>\n \t<li>Et pour finir nous indiquons la périodicité, ici l'année (YEAR), mais nous aurions pu indiquer le mois (MONTH) ou le trimestre (QUARTER)</li>\n</ul>\n</li>\n</ul>\nDonc la fonction va reprendre la mesure Ventes auquel elle va appliquer un décalage de -1 année.\n\n&nbsp;",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "comprendre-la-mesure-de-l-annee-n-1",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1127",
+      "post_id": "901127",
+      "course_id": "1",
+      "course_post_id": "800001",
+      "author_id": "1",
+      "section_id": "3",
+      "category_ids": "1",
+      "question": "Etape 10 : Calculer la variation entre les deux périodes",
+      "question_description": "",
+      "lesson": "Etape 10 : Calculer la variation entre les deux périodes",
+      "lesson_description": "",
+      "type": "lesson",
+      "status": "published",
+      "trash_status": "",
+      "date_created": "2026-07-07 12:00:00",
+      "date_modified": "2026-07-07 12:00:00",
+      "user_variant": "off",
+      "user_explanation": "",
+      "image": "",
+      "ordering": "5",
+      "options": "{\"collapsed\":\"expanded\",\"content_drip_type\":\"\",\"content_drip_date\":\"\"}",
+      "post": {
+        "ID": "901127",
+        "post_author": "1",
+        "post_date": "2026-07-07 12:00:00",
+        "post_date_gmt": "2026-07-07 12:00:00",
+        "post_title": "Etape 10 : Calculer la variation entre les deux périodes",
+        "post_content": "Pour finir notre rapport, nous devons ajouter une nouvelle mesure pour faire la variation entre les 2 périodes.\n\nLa mesure est ici très simple\n\nVar N-1:=DIVIDE([Ventes]-[Ventes N-1]; [Ventes N-1])\n\n<img class=\"alignnone wp-image-37721\" title=\"Mesure pour faire le pourcentage entre 2 périodes\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-pour-faire-le-pourcentage-entre-2-periodes.png\" alt=\"Mesure pour faire le pourcentage entre 2 périodes\" width=\"628\" height=\"380\" />\n<ul>\n \t<li>Nous aurions pu faire une simple division, mais la fonction DIVIDE permet de gérer les erreurs.</li>\n \t<li>Si nous sélectionnons la première année de notre modèle, nous devrions faire une division par 0 avec une division =&gt; erreur</li>\n \t<li>Mais la fonction DIVIDE a été conçu dans ce but précis.</li>\n \t<li>Elle fait à la fois le calcul d'une division et gère les éventuelles erreurs de division par 0</li>\n</ul>\nComme cette mesure retourne un pourcentage, il faut cliquer sur le <strong>symbole % dans le ruban de Power Pivot</strong> pour afficher le résultat de cette mesure sous forme de pourcentage.\n\n<img class=\"alignnone size-full wp-image-37722\" title=\"TCD avec la variation entre les 2 périodes\" src=\"https://excel-exercice.com/wp-content/uploads/2024/02/TCD-avec-la-variation-entre-les-2-periodes.png\" alt=\"TCD avec la variation entre les 2 périodes\" width=\"652\" height=\"590\" />\n\n&nbsp;\n<h2>Vidéo récapitulative de la dernière section</h2>\n<iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/LfodRGqzGEA?si=Tyq0UExNx9WV4ZDm\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>",
+        "post_excerpt": "",
+        "post_status": "publish",
+        "post_password": "",
+        "post_name": "etape-10-calculer-la-variation-entre-les-deux-periodes",
+        "post_parent": 0,
+        "menu_order": 0,
+        "post_type": "flessons",
+        "metadata": {
+          "_foxlms_lesson_settings": [
+            "a:3:{s:12:\"sampleLesson\";b:0;s:16:\"attachmentLesson\";b:0;s:11:\"attachments\";a:0:{}}"
+          ],
+          "_foxlms_lesson_options": [
+            "a:0:{}"
+          ],
+          "_foxlms_course_id": [
+            "0"
+          ]
+        }
+      }
+    }
+  ],
+  "quizzes": [],
+  "siteUrl": "https://excel-exercice.com",
+  "coreVersion": "7.0",
+  "lmsVersion": "7.0.2.3.1",
+  "phpVersion": "8.1.34"
+}

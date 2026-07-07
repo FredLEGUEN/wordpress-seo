@@ -1,0 +1,273 @@
+<title>Prévisualisation — Comparer 2 périodes N et N-1 dans Excel</title>
+<style>
+body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 860px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #1a1a2e; background: #fafafa; }
+h1 { color: #0b3d2e; }
+.badge { background: #0b3d2e; color: #fff; display: inline-block; padding: 6px 14px; border-radius: 6px; font-weight: 600; }
+.course-desc { background: #fff; border: 1px solid #ddd; border-left: 5px solid #0b3d2e; padding: 8px 20px; border-radius: 8px; margin: 20px 0; }
+.toc { background: #fff; border: 1px solid #ddd; padding: 8px 20px 16px; border-radius: 8px; }
+.section-sep { margin-top: 40px; padding: 4px 20px; background: #e8f0ec; border-radius: 8px; }
+.lesson { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 8px 24px 20px; margin: 18px 0; overflow-x: auto; }
+.lesson-title { border-bottom: 2px solid #0b3d2e; padding-bottom: 8px; }
+.lesson img { max-width: 100%; height: auto; border: 1px solid #eee; }
+.lesson iframe { max-width: 100%; }
+a { color: #0b6e4f; }
+@media (prefers-color-scheme: dark) {
+  body { background: #14141c; color: #e8e8ee; }
+  .lesson, .toc, .course-desc { background: #1d1d28; border-color: #333; }
+  .section-sep { background: #1f2a24; }
+  h1 { color: #7fc8a9; }
+  a { color: #7fc8a9; }
+}
+</style>
+<h1>Comparer 2 périodes N et N-1 dans Excel</h1><p class="badge">Prévisualisation avant import — prix : 19,99 € (paiement Fox LMS « paynow »)</p><div class="course-desc"><h2>Page de vente du cours</h2><p><strong>Comparer les résultats de la période N avec ceux de la période N-1</strong> (mois, trimestre, année), c'est l'analyse la plus demandée en entreprise&nbsp;: «&nbsp;Fait-on mieux que l'an dernier&nbsp;?&nbsp;». Et pourtant, presque personne ne sait la réaliser correctement dans Excel.</p>
+<p>Dans cette formation, vous allez apprendre, <strong>étape par étape</strong>, la méthode professionnelle pour construire un tableau de bord dynamique qui affiche côte à côte&nbsp;:</p>
+<ul>
+<li>les ventes de la période en cours (N)&nbsp;;</li>
+<li>les ventes de la période précédente (N-1)&nbsp;;</li>
+<li><strong>le pourcentage de variation entre les deux périodes</strong>.</li>
+</ul>
+<p>Le tout <strong>sans aucune formule complexe dans vos feuilles de calcul</strong>&nbsp;: les calculs sont réalisés par <strong>Power Query et Power Pivot</strong>, les deux outils intégrés à Excel que cette formation vous fait découvrir en pratique.</p>
+<h3>Ce que vous allez apprendre</h3>
+<ul>
+<li>Structurer vos données comme un professionnel (données granulaires)</li>
+<li>Nettoyer et charger vos données avec <strong>Power Query</strong></li>
+<li>Créer et paramétrer une <strong>Table des Temps</strong></li>
+<li>Écrire vos premières <strong>mesures DAX</strong> (SUM, CALCULATE, DATEADD, DIVIDE)</li>
+<li>Construire le tableau croisé dynamique final avec la variation N vs N-1 en %</li>
+</ul>
+<h3>Contenu de la formation</h3>
+<ul>
+<li><strong>18 leçons</strong> organisées en 10 étapes progressives</li>
+<li><strong>4 vidéos de démonstration</strong> qui reprennent chaque manipulation en détail</li>
+<li>Les <strong>fichiers d'exercice à télécharger</strong> (classeur Excel et script complet de la Table des Temps prêt à l'emploi)</li>
+</ul>
+<h3>À qui s'adresse cette formation&nbsp;?</h3>
+<p>À toute personne qui analyse des chiffres dans Excel (ventes, dépenses, indicateurs) et qui veut produire des comparaisons de périodes fiables et automatiques. Aucune connaissance de Power Query ou Power Pivot n'est requise&nbsp;: la méthode part de zéro.</p>
+<p><em>Prérequis&nbsp;: une version d'Excel incluant Power Pivot (Excel 2016 ou plus récent sous Windows).</em></p></div><div class="toc"><h2>Programme (3 sections, 18 leçons, 4 vidéos)</h2><h3>Préparer et charger vos données</h3><ol><li><a href="#lesson-1110">Étape 1 : Présenter vos données de façon structurées</a> <small>(aperçu gratuit)</small></li><li><a href="#lesson-1111">Chaque colonne doit contenir le même type de données</a> <small>(aperçu gratuit)</small></li><li><a href="#lesson-1112">Dépivoter les colonnes</a> 🎬 <small>(aperçu gratuit)</small></li><li><a href="#lesson-1113">Étape 2 : Charger vos données dans le modèle de données</a></li><li><a href="#lesson-1114">Contrôler les types de données</a></li><li><a href="#lesson-1115">Importer les données dans le Modèle de données</a></li><li><a href="#lesson-1116">Étape 3 : Ajouter le menu Power Pivot à votre ruban</a></li><li><a href="#lesson-1117">Ouvrir le modèle de données dans Power Pivot</a> 🎬</li></ol><h3>La Table des Temps</h3><ol><li><a href="#lesson-1118">Étape 4 : Création de la Table des Temps</a></li><li><a href="#lesson-1119">Comprendre la Table des Temps</a></li><li><a href="#lesson-1120">Étape 5 : Indiquer à Power Pivot que cette nouvelle Table est une Table des Temps</a></li><li><a href="#lesson-1121">Forcer le tri des noms des mois</a></li><li><a href="#lesson-1122">Étape 6 : Lier la Table des Temps avec notre jeu de données</a> 🎬</li></ol><h3>Les mesures et le tableau de bord</h3><ol><li><a href="#lesson-1123">Étape 7 : Créer la mesure du Total des ventes de l&#x27;année en cours</a></li><li><a href="#lesson-1124">Étape 8 : Mettre la mesure dans un TCD</a></li><li><a href="#lesson-1125">Étape 9 : Création de la mesure pour les ventes de l&#x27;année N-1</a></li><li><a href="#lesson-1126">Comprendre la mesure de l&#x27;année N-1</a></li><li><a href="#lesson-1127">Etape 10 : Calculer la variation entre les deux périodes</a> 🎬</li></ol></div><div class="section-sep"><h2>📚 Section : Préparer et charger vos données</h2><p><em></em></p></div><article id="lesson-1110" class="lesson"><h2 class="lesson-title">Leçon 1 — Étape 1 : Présenter vos données de façon structurées <span style="font-size:0.6em;background:#0b6e4f;color:#fff;padding:2px 8px;border-radius:4px;vertical-align:middle;">aperçu gratuit</span></h2><p>Avant de voir comment écrire les formules, <strong>il est indispensable d'avoir des données structurées</strong>.</p>
+<p>En effet, si vos tableaux de données ne sont pas construits tel qu'attendu par Power Pivot (l'outil qui va faire les calculs), jamais vous obtiendrez un tableau de bord dynamique pour comparer deux périodes.</p>
+<p>Un tableau de données structuré doit présenter les données « brutes » (raw data en anglais) c'est-à-dire</p>
+<ol>
+ 	<li>Sans colonne vide</li>
+ 	<li>Sans ligne récapitulative par mois par catégorie de produits ou autres</li>
+ 	<li>Chaque colonne présente un type de données</li>
+</ol>
+<p>Votre tableau de données doit présenter toutes les données unitaires, comme le détail de chaque vente, pour chaque journée. <strong>C'EST INDISPENSABLE</strong>.</p>
+<ul>
+ 	<li>C'est ce que l'on appelle en informatique <strong>des données granulaires</strong> (dérivées du mot grain).</li>
+ 	<li>Tout comme un grain, il est très difficile de le diviser mais en les combinant, nous obtenons des produits plus élaborés (farine, pain, gateau, tout ça à partir d'un grain de blé)</li>
+ 	<li><strong>En informatique c'est la même chose</strong>, si vos données présentent le niveau de détail le plus fin, il sera plus simple ensuite de demander à l'ordinateur de faire tous les types de calculs que vous souhaitez à partir de ces données granulaires.</li>
+</ul>
+<p><strong>Ce type de document n'est pas à utiliser</strong> à cause des lignes de calculs par mois (ligne 8, 12, 16, 17)</p>
+<img class="alignnone size-full wp-image-37565" title="Mauvaise présentation des données dans un Tableau" src="https://excel-exercice.com/wp-content/uploads/2024/01/Mauvaise-presentation-des-donnees-dans-un-Tableau.png" alt="Mauvaise présentation des données dans un Tableau" width="626" height="343" />
+<ul>
+ 	<li>Ce qu'il faut faire, c'est conserver uniquement le détail d'une facture par ligne.</li>
+ 	<li><strong>Pas de regroupement par client ou par mois par exemple &#x26d4;</strong></li>
+</ul>
+<img class="alignnone size-full wp-image-37677" title="Présentation des données granulaires dans un tablea" src="https://excel-exercice.com/wp-content/uploads/2024/02/Presentation-des-donnees-granulaires-dans-un-tablea.png" alt="Présentation des données granulaires dans un tablea" width="529" height="237" />
+<p>C'est comme cela qu'un ordinateur est conçu pour traité les données.</p></article><article id="lesson-1111" class="lesson"><h2 class="lesson-title">Leçon 2 — Chaque colonne doit contenir le même type de données <span style="font-size:0.6em;background:#0b6e4f;color:#fff;padding:2px 8px;border-radius:4px;vertical-align:middle;">aperçu gratuit</span></h2><p>L'autre erreur souvent commise c'est de vouloir présenter une même donnée mais sur plusieurs colonnes &#x1f631;&#x1f631;</p>
+<p>Par exemple ici, nous avons une présentation d'un tableau des résultats du chiffre d'affaires de nos magasins où <strong>chaque mois est sur une colonne différente (A NE JAMAIS FAIRE &#x26d4;)</strong></p>
+<img class="alignnone wp-image-37678" title="Ne jamais présenter les valeur représentant la même donnée sur plusieurs colonnes" src="https://excel-exercice.com/wp-content/uploads/2024/02/Ne-jamais-presenter-les-valeur-representant-la-meme-donnee-sur-plusieurs-colonnes.png" alt="Ne jamais présenter les valeur représentant la même donnée sur plusieurs colonnes" width="868" height="215" />
+<p><strong>La seule façon de bien travailler avec un logiciel comme Excel, c’est de ranger ses données par nature dans une seule et même colonne</strong></p>
+<ul>
+ 	<li>Une colonne pour <strong>le nom du magasin</strong></li>
+ 	<li>Une pour <strong>le poste de dépense</strong></li>
+ 	<li>Puis, <strong>la date</strong></li>
+ 	<li>Et une dernière pour <strong>le montant des ventes</strong></li>
+</ul>
+<p>Seulement 4 colonnes, et forcément, un très grand nombre de lignes.</p>
+<p><strong>Et c'est justement le travail d'un ordinateur. </strong>Quand <strong>les données d'un même type sont dans une seule colonne, les calculs sont extrêmement rapides</strong>, peu importe le nombre de lignes. Alors qu'à l'inverse, comparer des colonnes c'est extrêmement complexe à coder.</p>
+<img class="alignnone size-full wp-image-38846" title="Correcte présentation des données" src="https://excel-exercice.com/wp-content/uploads/2024/05/Correcte-presentation-des-donnees.png" alt="Correcte présentation des données" width="520" height="412" /></article><article id="lesson-1112" class="lesson"><h2 class="lesson-title">Leçon 3 — Dépivoter les colonnes <span style="font-size:0.6em;background:#0b6e4f;color:#fff;padding:2px 8px;border-radius:4px;vertical-align:middle;">aperçu gratuit</span></h2><ul>
+ 	<li>Si vous devez réordonner vos données pour mettre chaque type de données sur sa colonne, une solution simple consiste à utiliser <strong>Power Query avec l'option dépivoter les colonnes</strong>.</li>
+ 	<li>La vidéo suivante va vous expliquer la technique. Vous verrez, c'est très simple.</li>
+ 	<li>Pour reproduire les étapes de transformations en même temps que la vidéo, vous pouvez <a href="https://excel-exercice.com/wp-content/uploads/2024/02/Depivoter-les-colonnes.xlsx">télécharger le fichier ici</a> (la première requête est déjà faite).</li>
+ 	<li>Mais si vos données sont déjà bien ordonnées, vous pouvez passer à l'étape suivante</li>
+</ul>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/KI1GgrRSIdQ?si=Y1_IIw7KoA4roUnH" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></article><article id="lesson-1113" class="lesson"><h2 class="lesson-title">Leçon 4 — Étape 2 : Charger vos données dans le modèle de données</h2><p>Maintenant que vous avez un document propre et structuré, nous allons pouvoir directement rentrer dans le vif du sujet.</p>
+<ol>
+ 	<li>La première chose à faire c'est de mettre vos données dans une table (<strong>Insertion &gt; Tableau</strong>)</li>
+</ol>
+<img class="alignnone size-full wp-image-19225" title="Insertion-Tableau" src="https://excel-exercice.com/wp-content/uploads/2019/06/Insertion-Tableau.png" alt="Menu insertion Tableau" width="341" height="161" />
+<ol start="2">
+ 	<li>Ensuite, il est recommandé d'attribuer un nom à votre tableau (Création de Tableau &gt; Nom de Tableau). C'est le moyen le plus simple de repérer par la suite vos données dans votre modèle de données.</li>
+</ol>
+<img class="alignnone size-full wp-image-24235" title="Changer le nom du Tableau" src="https://excel-exercice.com/wp-content/uploads/2021/07/Changer-le-nom-du-Tableau.png" alt="Changer le nom du Tableau" width="395" height="319" />
+<ol start="3">
+ 	<li>Ensuite, vous allez charger vos données dans Power Query à partir du menu <strong>Données &gt; A partir d'un Tableau ou d'une plage</strong></li>
+</ol>
+<img class="alignnone size-full wp-image-37687" title="Menu A partir de Tableau ou Plage" src="https://excel-exercice.com/wp-content/uploads/2024/02/Menu-A-partir-de-Tableau-ou-Plage.png" alt="Menu A partir de Tableau ou Plage" width="568" height="222" /></article><article id="lesson-1114" class="lesson"><h2 class="lesson-title">Leçon 5 — Contrôler les types de données</h2><p>Normalement, comme les données de base sont propres, il n'y a pas de transformation a réaliser avec Power Query. Vous pouvez <a href="https://www.youtube.com/watch?v=xcJssdy0M3A">retrouver dans cette vidéo</a> des transformations élémentaires avec Power Query si vous voulez en savoir plus.</p>
+<p>Dans notre exemple, nous devons simplement indiquer que <strong>la colonne des dates contient le type Date</strong> et pas Date et Heure</p>
+<img class="alignnone size-full wp-image-37688" title="Poqer Query format Date et Heure" src="https://excel-exercice.com/wp-content/uploads/2024/02/Poqer-Query-format-Date-et-Heure.png" alt="Poqer Query format Date et Heure" width="493" height="280" />
+<p>Pour cela</p>
+<ol>
+ 	<li><strong>Cliquez sur l'icône dans l'entête</strong></li>
+ 	<li>Sélectionnez l'option <strong>Date</strong></li>
+ 	<li>Dans la boite de dialogue suivante, indiquez que vous voulez remplacer le type actuel par le <strong>type Date</strong> (seulement la date, sans l'heure)</li>
+</ol>
+<img class="alignnone size-full wp-image-37690" title="Power Query changer le type de données" src="https://excel-exercice.com/wp-content/uploads/2024/02/Power-Query-changer-le-type-de-donnees.png" alt="Power Query changer le type de données" width="438" height="287" />
+<p>Juste de cette façon, votre colonne présente des dates (<strong>TRES IMPORTANT pour la suite</strong>)</p>
+<img class="alignnone size-full wp-image-37689" title="Power Query format Date" src="https://excel-exercice.com/wp-content/uploads/2024/02/Power-Query-format-Date.png" alt="Power Query format Date" width="295" height="274" /></article><article id="lesson-1115" class="lesson"><h2 class="lesson-title">Leçon 6 — Importer les données dans le Modèle de données</h2><p>Ici, ce n'est pas une action très difficile à réaliser mais si vous oubliez une simple case à cocher, <strong>RIEN NE POURRA FONCTIONNER par la suite</strong></p>
+<ol>
+ 	<li>Dans Power Query, allez sur l'icône <strong>Fermer et Charger</strong></li>
+ 	<li><strong>Cliquez sur la flèche</strong> pour afficher les sous-menus</li>
+ 	<li>Sélectionnez <strong>Fermer et Charger dans</strong></li>
+</ol>
+<img class="alignnone size-full wp-image-19592" title="Power-Query-Fermer-et-Charger-dans-..." src="https://excel-exercice.com/wp-content/uploads/2019/08/Power-Query-Fermer-et-Charger-dans-....png" alt="Charger le résultat de la requête en mémoire" width="314" height="215" />
+<ol start="4">
+ 	<li>Dans la boîte de dialogue qui s'affiche, Cochez la case <strong>Ne créer que la connexion</strong></li>
+ 	<li>Puis, ET C'EST LE PLUS IMPORTANT, <strong>Ajouter ces données au modèle de données</strong></li>
+</ol>
+<img class="alignnone wp-image-37691" title="Power Query Charger dans le modèle de données" src="https://excel-exercice.com/wp-content/uploads/2024/02/Power-Query-Charger-dans-le-modele-de-donnees.png" alt="Power Query Charger dans le modèle de données" width="340" height="236" />
+<p><strong>Juste cette dernière case à cocher</strong> va complètement changer l'organisation des données dans notre classeur Excel. <strong>C'est le seul moyen pour Power Pivot de "voir" vos données.</strong></p></article><article id="lesson-1116" class="lesson"><h2 class="lesson-title">Leçon 7 — Étape 3 : Ajouter le menu Power Pivot à votre ruban</h2><p>Voilà une notion qui peut être nouvelle pour beaucoup ; <strong>qu'est-ce que l'on entend par Modèle de données</strong> dans Excel.</p>
+<p>En fait, quand les données sont chargées dans le modèle de données, <strong>elles ne sont accessibles que depuis POWER PIVOT.</strong></p>
+<ol>
+ 	<li>Pour voir les données, il faut charger le module complémentaire depuis <strong>Fichier &gt; Options</strong></li>
+ 	<li>Complément</li>
+ 	<li>Complément COM</li>
+ 	<li>Atteindre</li>
+</ol>
+<img class="alignnone wp-image-37692" title="Options Compléments COM" src="https://excel-exercice.com/wp-content/uploads/2024/02/Options-Complements-COM.png" alt="Options Compléments COM" width="609" height="345" />
+<p>Cocher la case Microsoft Power Pivot</p>
+<img class="alignnone size-full wp-image-37693" title="Sélectionner le complément COM Power Pivot" src="https://excel-exercice.com/wp-content/uploads/2024/02/Selectionner-le-complement-COM-Power-Pivot.png" alt="Sélectionner le complément COM Power Pivot" width="607" height="259" />
+<p>Ensuite, depuis le Ruban, vous voyez apparaitre le menu Power Pivot dans lequel vous afficher le modèle de données</p>
+<img class="alignnone size-full wp-image-37694" title="Menu Power Pivot Gérer le data Model" src="https://excel-exercice.com/wp-content/uploads/2024/02/Menu-Power-Pivot-Gerer-le-data-Model.png" alt="Menu Power Pivot Gérer le data Model" width="855" height="178" /></article><article id="lesson-1117" class="lesson"><h2 class="lesson-title">Leçon 8 — Ouvrir le modèle de données dans Power Pivot</h2><p>Quand vous cliquez sur la première icône <strong>Gérer</strong>, vous voyez une grille qui ressemble avec Excel, mais qui ressemble seulement.</p>
+<img class="alignnone size-full wp-image-37695" title="Affichage du Modèle de données dans Power Pivot" src="https://excel-exercice.com/wp-content/uploads/2024/02/Affichage-du-Modele-de-donnees-dans-Power-Pivot.png" alt="Affichage du Modèle de données dans Power Pivot" width="761" height="560" />
+<p>En fait, en chargeant vos données, vous transférez vos données dans un moteur dédié aux calculs de masse (son nom c'est Vertipaq).  Les principales différences avec Excel sont</p>
+<ul>
+ 	<li>Les données sont en lecture uniquement (mise à jour des données impossible)</li>
+ 	<li>Pas de limitation du nombre de lignes</li>
+ 	<li>Optimisation des données automatique lors du chargement dans le modèle de données.</li>
+ 	<li>Les onglets sont appelés des Tables</li>
+ 	<li>Les calculs sont des Mesures</li>
+ 	<li>La colonne des dates est toujours représentées avec le format Heure en plus (c'est comme ça)</li>
+ 	<li>Power Pivot contient un moteur de calcul spécifique pour le calculs des dates (D'OU LA NECESSITE DE TRANSFERER LES DONNÉES DANS POWER PIVOT)</li>
+</ul>
+<h2>Vidéo récapitulative de la première section</h2>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/j0UXfXgvhrc?si=CoP8Hnma71LIwJpS" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></article><div class="section-sep"><h2>📚 Section : La Table des Temps</h2><p><em></em></p></div><article id="lesson-1118" class="lesson"><h2 class="lesson-title">Leçon 1 — Étape 4 : Création de la Table des Temps</h2><p>La particularité de travailler avec Power Pivot c'est qu'<strong>il faut lui indiquer une table qui va être utilisée pour les opérations sur les Dates</strong>. C'est ce que l'on appelle <strong>une table des temps</strong> (ou table de date).</p>
+<p>Il existe plusieurs techniques pour le faire mais la méthode à préconiser c'est de créer la table des temps dans Power Query et de la charger dans le modèle de données</p>
+<p>Pourquoi c'est mieux de créer sa table des temps dans Power Query ? Tout simplement parce que la table n'a besoin d'être chargée qu'une seule fois dans le modèle (une fois par jour c'est suffisant). Si vous faites votre table des temps depuis Power Pivot, donc avec des mesures, votre table des temps sera reconstruite à chaque phase de calcul (pas terrible comme optimisation).</p>
+<p>Pour faire votre Table des Temps (la démo vidéo est à la fin de la formation)</p>
+<ol>
+ 	<li>Allez dans le menu Données</li>
+ 	<li>Obtenir des données</li>
+ 	<li>A partir d'autres Sources</li>
+ 	<li>Requête vide</li>
+</ol>
+<img class="alignnone wp-image-37698" title="Menu Power Query Requête Vide" src="https://excel-exercice.com/wp-content/uploads/2024/02/Menu-Power-Query-Requete-Vide.png" alt="Menu Power Query Requête Vide" width="444" height="525" />
+<ol start="5">
+ 	<li>Ensuite, vous allez récupérer <a href="https://excel-exercice.com/wp-content/uploads/2024/02/Script_TimeTable_Complet_fr.txt">ce fichier texte</a> contenant la requête</li>
+ 	<li>Dans Power Query, vous allez ouvrir l<strong>'Éditeur Avancé </strong>depuis le menu Accueil</li>
+ 	<li>Puis, collez l'intégralité du fichier texte à la place de la requête vide</li>
+</ol>
+<img class="alignnone size-full wp-image-37696" title="Coller la table des temps dans l'éditeur de requêtes" src="https://excel-exercice.com/wp-content/uploads/2024/02/Coller-la-table-des-temps-dans-lediteur-de-requetes.png" alt="Coller la table des temps dans l'éditeur de requêtes" width="747" height="388" /></article><article id="lesson-1119" class="lesson"><h2 class="lesson-title">Leçon 2 — Comprendre la Table des Temps</h2><p>Quand votre table de temps est chargée dans Power Query, vous voyez</p>
+<ul>
+ 	<li>Une première colonne avec les dates au format Date mais sans un seul jour manquant (jours ouvrés, fériés, weekend, .... rien ne doit manquer)</li>
+ 	<li>Ensuite, chaque colonne qui suit représente une partie de la date
+<ul>
+ 	<li>Juste l'année</li>
+ 	<li>Le mois en chiffre</li>
+ 	<li>Le mois en lettre</li>
+ 	<li>Jour de la semaine</li>
+ 	<li>Jour dans le mois</li>
+ 	<li>.....</li>
+</ul>
+<p></li><br/></ul></p>
+<img class="alignnone wp-image-37699" title="Exemple de table des temps dans Power Query" src="https://excel-exercice.com/wp-content/uploads/2024/02/Exemple-de-table-des-temps-dans-Power-Query.png" alt="Exemple de table des temps dans Power Query" width="810" height="358" />
+<p><strong>IMPORTANT</strong> : Le script fourni est construit sur une date de début et de fin figée. Dans la vidéo qui va reprendre chaque partie de la méthode, vous verrez <strong>comment déduire la date de début et de fin</strong> à partir de la date minimale et maximale du jeu de données.</p>
+<p>Mais en conservant une date minimale et maximale figée, le projet va tout de même fonctionnée.</p>
+<p>Pour finir, il faut de nouveau <strong>charger la Table des Temps dans le Modèle de données.</strong></p>
+<img class="alignnone size-full wp-image-19592" title="Power-Query-Fermer-et-Charger-dans-..." src="https://excel-exercice.com/wp-content/uploads/2019/08/Power-Query-Fermer-et-Charger-dans-....png" alt="Charger le résultat de la requête en mémoire" width="314" height="215" />
+<img class="alignnone size-full wp-image-37700" title="Menu Power Query pour charger dans le modèle de données" src="https://excel-exercice.com/wp-content/uploads/2024/02/Menu-Power-Query-pour-charger-dans-le-modele-de-donnees.png" alt="Menu Power Query pour charger dans le modèle de données" width="388" height="270" />
+<p>Ensuite, depuis Power Pivot, vous pouvez voir votre Table des Temps s'afficher comme nouvelle table (onglet)</p>
+<img class="alignnone size-full wp-image-37701" title="Table des Temps chargées dans Power Pivot" src="https://excel-exercice.com/wp-content/uploads/2024/02/Table-des-Temps-chargees-dans-Power-Pivot.png" alt="Table des Temps chargées dans Power Pivot" width="836" height="491" />
+<p>Si vous êtes arrivé à cette étape et sans erreur, BRAVO &#x1f600;&#x1f44f;.</p>
+<p>Encore 2 étapes importantes et le travail est terminé.</p></article><article id="lesson-1120" class="lesson"><h2 class="lesson-title">Leçon 3 — Étape 5 : Indiquer à Power Pivot que cette nouvelle Table est une Table des Temps</h2><p>Pour l'instant, nous n'avons fait que charger une nouvelle table dans Power Pivot. Nous nous savons qu'il s'agit d'une table des Temps mais Power Pivot l'ignore pour le moment. C'est donc tout l'objet de cette étape.</p>
+<p>Pour le lui faire comprendre il faut</p>
+<ol>
+ 	<li>Sélectionnez la table des Temps depuis l'interface Power Pivot</li>
+ 	<li>Puis sélectionnez le menu <strong>Conception</strong></li>
+ 	<li><strong>Marquer en tant que table de dates</strong></li>
+ 	<li>De nouveau <strong>Marquer en tant que table de dates</strong></li>
+</ol>
+<img class="alignnone size-full wp-image-37702" title="Marquer en tant que table de dates dans Power Pivot" src="https://excel-exercice.com/wp-content/uploads/2024/02/Marquer-en-tant-que-table-de-dates-dans-Power-Pivot.png" alt="Marquer en tant que table de dates dans Power Pivot" width="764" height="323" />
+<p>Il suffit ensuite d'indiquer quelle est la colonne qui contient toutes les dates (au format date). En fait, il n'y a qu'une seule colonne contenant des dates, la <strong>colonne Date</strong></p></article><article id="lesson-1121" class="lesson"><h2 class="lesson-title">Leçon 4 — Forcer le tri des noms des mois</h2><p>Un détail qui va avoir son importance, c'est l'ordre d'affichage des mois. Là encore, sans intervention de notre part, Power Pivot est incapable de savoir que Janvier doit être le premier mois d'une année.</p>
+<ol>
+ 	<li>Sélectionner la colonne des mois en lettres</li>
+ 	<li>Allez dans le menu <strong>Accueil</strong></li>
+ 	<li><strong>Trier par colonne</strong></li>
+</ol>
+<img class="alignnone wp-image-37703" title="Trier les mois en lettres dans Power Pivot" src="https://excel-exercice.com/wp-content/uploads/2024/02/Trier-les-mois-en-lettres-dans-Power-Pivot.png" alt="Trier les mois en lettres dans Power Pivot" width="933" height="280" />
+<p>Dans la boite de dialogue, il suffit d'indiquer que la colonne <strong>Nom du mois</strong>, suis l'ordre numérique de la colonne <strong>Mois</strong></p>
+<img class="alignnone size-full wp-image-37704" title="Paramètre de tri des mois en lettres" src="https://excel-exercice.com/wp-content/uploads/2024/02/Parametre-de-tri-des-mois-en-lettres.png" alt="Paramètre de tri des mois en lettres" width="524" height="224" />
+<p>Refaites la même manipulation pour <strong>la colonne des mois courts et des jours</strong></p></article><article id="lesson-1122" class="lesson"><h2 class="lesson-title">Leçon 5 — Étape 6 : Lier la Table des Temps avec notre jeu de données</h2><p>Dernière étape avant de passer aux mesures, il faut lier les 2 tables.</p>
+<ol>
+ 	<li>Selectionner le champ de la première table</li>
+ 	<li>Glisser le sur le champ de même type (ici date) dans l'autre table</li>
+</ol>
+<img class="alignnone size-full wp-image-37705" title="Lier deux tables Power Pivot" src="https://excel-exercice.com/wp-content/uploads/2024/02/Lier-deux-tables-Power-Pivot.gif" alt="Lier deux tables Power Pivot" width="500" height="404" />
+<p>L'opération est simple à réaliser mais si l'un des éléments suivants n'est pas respecté, la liaison est impossible</p>
+<ul>
+ 	<li>Type de données identiques entre les 2 tables (Date - Date)</li>
+ 	<li><strong>L'une des 2 tables doit avoir des valeurs uniques.</strong> C'est le cas de la Table des Temps.</li>
+</ul>
+<p><strong>Si l'une de ces règles n'est pas respectées, la liaison ne peut pas se faire</strong> &#x26d4;</p>
+<h2>Vidéo récapitulative de la création de la table des temps</h2>
+<p>Nous allons ici voir en plus comment caler la Table des Temps sur les dates minimales et maximales de notre modèle</p>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/KXgUzucwaEQ?si=FiciuxT_tXdW5KhR" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></article><div class="section-sep"><h2>📚 Section : Les mesures et le tableau de bord</h2><p><em></em></p></div><article id="lesson-1123" class="lesson"><h2 class="lesson-title">Leçon 1 — Étape 7 : Créer la mesure du Total des ventes de l&#x27;année en cours</h2><p>Alors une mesure, ce n'est pas la même chose qu'une formule dans Excel. Ici, il y a un peu un coté "magique" dans le sens où la mesure va s'adapter au "contexte" (je l'explique à la fin de cette fiche)</p>
+<ul>
+ 	<li>Une mesure s'écrit dans la partie en dessous des données dans Power Pivot. Le choix de l'emplacement de la mesure n'est pas déterminant (vous pouvez l'écrire dans n'importe quelle cellule)</li>
+ 	<li>Le nom de la mesure est séparée de la fonction par le symbole ( : ) et du signe =</li>
+ 	<li>Toutes les fonctions sont en anglais.</li>
+</ul>
+<p>La mesure pour calculer les ventes de l'année en cours est très simple à écrire.</p>
+<p><strong>Ventes:=SUM([Total])</strong></p>
+<img class="alignnone size-full wp-image-37710" title="Mesure SUM pour les ventes de l'année" src="https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-SUM-pour-les-ventes-de-lannee.png" alt="Mesure SUM pour les ventes de l'année" width="667" height="462" />
+<p>Alors le chiffre renvoyé par la mesure, n'est pas exploitable pour le moment (c'est la somme des 78694 lignes ; aucun intérêt)</p>
+<p>Par contre quand nous allons utiliser cette mesure dans un Tableau Croisé Dynamique, là vous allez comprendre cette histoire de "contexte".</p></article><article id="lesson-1124" class="lesson"><h2 class="lesson-title">Leçon 2 — Étape 8 : Mettre la mesure dans un TCD</h2><p>Nous allons maintenant construire un TCD en utilisant la mesure <strong>Ventes</strong></p>
+<ul>
+ 	<li>Nous allons glisser depuis la Table des Temps l'année et le mois en Lettre dans la zone Ligne</li>
+ 	<li>Puis déposer la mesure Ventes dans la zone Valeur. Une mesure se distingue des autres champs par le symbole <em>fx</em></li>
+</ul>
+<img class="alignnone size-full wp-image-37711" title="Utilisation de la mesure Ventes dans un TCD" src="https://excel-exercice.com/wp-content/uploads/2024/02/Utilisation-de-la-mesure-Ventes-dans-un-TCD.png" alt="Utilisation de la mesure Ventes dans un TCD" width="568" height="514" />
+<p>Et c'est là où le principe de "contexte" prend tout son sens.</p>
+<p>Pour chaque association Année + Mois, la mesure va demander au moteur de Power Pivot de lui retourner la somme correspondant à ce critère. Et ainsi de suite pour chaque couple Année + Mois. Cela peut sembler répétitif mais c'est comme cela que Power Pivot fonctionne.</p>
+<p>Donc une mesure ne se comprend qu'une fois mises dans un TCD avec les critères de sélection choisi.</p></article><article id="lesson-1125" class="lesson"><h2 class="lesson-title">Leçon 3 — Étape 9 : Création de la mesure pour les ventes de l&#x27;année N-1</h2><p>Ca y est ! Nous y sommes. La mesure pour récupérer le montant des ventes de l'année N-1 s'obtient avec la mesure suivante :</p>
+<p>Ventes N-1:=CALCULATE([Ventes];DATEADD(Table_Temps[Date];-1;YEAR))</p>
+<ul>
+ 	<li>CALCULATE va "altérer" le résultat d'une mesure</li>
+ 	<li>Ici, nous allons "altérer" le résultat de la mesure Ventes</li>
+ 	<li>Altérer par quoi ? Par un décalage d'un an.
+<ul>
+ 	<li>Fonction DATEADD</li>
+ 	<li>Colonne Date de la Table des Temps (obligatoirement cette colonne)</li>
+ 	<li>-1</li>
+ 	<li>Période : L'année</li>
+</ul>
+<p></li><br/></ul></p>
+<img class="alignnone size-full wp-image-37712" title="Mesure pour l'année N 1" src="https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-pour-lannee-N-1.png" alt="Mesure pour l'année N 1" width="787" height="443" />
+<p>Et ajoutant cette mesure à notre TCD nous avons une nouvelle colonne qui donne le résultat de l'année précédente.</p>
+<p>On voit bien sur cet exemple que le montant de vente de 2020 se reporte en colonne vente de l'année N-1 en 2021</p>
+<img class="alignnone size-full wp-image-37713" title="Ajout de la mesure de l'année N 1" src="https://excel-exercice.com/wp-content/uploads/2024/02/Ajout-de-la-mesure-de-lannee-N-1.png" alt="Ajout de la mesure de l'année N 1" width="648" height="540" /></article><article id="lesson-1126" class="lesson"><h2 class="lesson-title">Leçon 4 — Comprendre la mesure de l&#x27;année N-1</h2><p>Alors la formule peut sembler courte et peu complexe mais elle découle de tout le travail qui a été fait précédemment</p>
+<img class="alignnone size-full wp-image-37712" title="Mesure pour l'année N 1" src="https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-pour-lannee-N-1.png" alt="Mesure pour l'année N 1" width="787" height="443" />
+<ul>
+ 	<li>La fonction CALCULATE va "altérer" le résultat d'une précédente mesure</li>
+ 	<li>Le premier argument reprend la mesure des ventes que nous avons écrites précédemment</li>
+ 	<li>Ensuite, nous allons utiliser la fonction DATEADD pour créer un décalage d'une année
+<ul>
+ 	<li>Le premier paramètre est <strong>obligatoirement la colonne Date de la Table des Temps</strong>  (c'est pour cela que nous avons besoin d'une table des temps)</li>
+ 	<li>Ensuite on retranche 1</li>
+ 	<li>Et pour finir nous indiquons la périodicité, ici l'année (YEAR), mais nous aurions pu indiquer le mois (MONTH) ou le trimestre (QUARTER)</li>
+</ul>
+<p></li><br/></ul><br/>Donc la fonction va reprendre la mesure Ventes auquel elle va appliquer un décalage de -1 année.</p></article><article id="lesson-1127" class="lesson"><h2 class="lesson-title">Leçon 5 — Etape 10 : Calculer la variation entre les deux périodes</h2><p>Pour finir notre rapport, nous devons ajouter une nouvelle mesure pour faire la variation entre les 2 périodes.</p>
+<p>La mesure est ici très simple</p>
+<p>Var N-1:=DIVIDE([Ventes]-[Ventes N-1]; [Ventes N-1])</p>
+<img class="alignnone wp-image-37721" title="Mesure pour faire le pourcentage entre 2 périodes" src="https://excel-exercice.com/wp-content/uploads/2024/02/Mesure-pour-faire-le-pourcentage-entre-2-periodes.png" alt="Mesure pour faire le pourcentage entre 2 périodes" width="628" height="380" />
+<ul>
+ 	<li>Nous aurions pu faire une simple division, mais la fonction DIVIDE permet de gérer les erreurs.</li>
+ 	<li>Si nous sélectionnons la première année de notre modèle, nous devrions faire une division par 0 avec une division =&gt; erreur</li>
+ 	<li>Mais la fonction DIVIDE a été conçu dans ce but précis.</li>
+ 	<li>Elle fait à la fois le calcul d'une division et gère les éventuelles erreurs de division par 0</li>
+</ul>
+<p>Comme cette mesure retourne un pourcentage, il faut cliquer sur le <strong>symbole % dans le ruban de Power Pivot</strong> pour afficher le résultat de cette mesure sous forme de pourcentage.</p>
+<img class="alignnone size-full wp-image-37722" title="TCD avec la variation entre les 2 périodes" src="https://excel-exercice.com/wp-content/uploads/2024/02/TCD-avec-la-variation-entre-les-2-periodes.png" alt="TCD avec la variation entre les 2 périodes" width="652" height="590" />
+<h2>Vidéo récapitulative de la dernière section</h2>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/LfodRGqzGEA?si=Tyq0UExNx9WV4ZDm" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></article>
