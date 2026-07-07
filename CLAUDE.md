@@ -18,6 +18,10 @@ fournis en cours de session.
   conversation.
 - Nommer les fichiers de façon explicite, en français, sans espaces
   (ex. `foxlms-import-comparer-N-N1.json`).
+- **Code PHP pour le site** : Frédéric utilise le plugin **Code Snippets**
+  (pas de mu-plugins, pas d'édition de functions.php). Fournir dans la
+  conversation : le titre du snippet, le code sans balise `<?php`, et le
+  réglage d'exécution (partout / admin / front).
 
 ## Écosystème des sites
 
